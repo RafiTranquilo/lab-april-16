@@ -19,3 +19,13 @@ function sumAndMultiply(e, f, g) {
   console.log('The numbers ' + e + ' and ' + f + ' and ' + g + ' have a product of ' + output[1]);
   return output;
 }
+
+// - PROBLEM 4
+var total = 0;
+function sumArray(input) {
+  for (var i = 0; i < input.length; i++) {
+    total = total + input[i];
+  }
+  console.table(input);
+  console.log(input + ' was passed into the array, and ' + total + ' is their sum.');
+}
