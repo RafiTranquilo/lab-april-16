@@ -29,3 +29,13 @@ function sumArray(input) {
   console.table(input);
   console.log(input + ' was passed into the array, and ' + total + ' is their sum.');
 }
+
+// - PROBLEM 5
+var newTotal = 1;
+function multiplyArray(input) {
+  for (var i = 0; i < input.length; i++) {
+    newTotal = newTotal * input[i];
+  }
+  console.table(input);
+  console.log(input + ' was passed into the array, and have a product of ' + newTotal);
+}
