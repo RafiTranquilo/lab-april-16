@@ -3,6 +3,7 @@ function sum(a, b) {
   // console.log('The sum of ' + a + ' and ' + b + ' is ' + sum(a, b));
   return a + b;
 }
+//looks great!
 
 // - PROBLEM 2
 function multiply(c, d) {
@@ -19,6 +20,7 @@ function sumAndMultiply(e, f, g) {
   console.log('The numbers ' + e + ' and ' + f + ' and ' + g + ' have a product of ' + output[1]);
   return output;
 }
+//These first three look like mine. 
 
 // - PROBLEM 4
 var total = 0;
@@ -39,3 +41,4 @@ function multiplyArray(input) {
   console.table(input);
   console.log(input + ' was passed into the array, and have a product of ' + newTotal);
 }
+//Was this changed from earlier today to fix problems with question 6?
